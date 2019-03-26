@@ -20,11 +20,11 @@ source $slim_path/aliases.zsh
 #source $slim_path/correction.zsh
 source $slim_path/stack.zsh
 source $slim_path/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
-# source $slim_path/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=green
-ZSH_HIGHLIGHT_STYLES[precommand]=fg=green
-ZSH_HIGHLIGHT_STYLES[path]=none
+# ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+# # source $slim_path/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+# ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=green
+# ZSH_HIGHLIGHT_STYLES[precommand]=fg=green
+# ZSH_HIGHLIGHT_STYLES[path]=none
 
 source $slim_path/colored-man-pages.zsh
 
