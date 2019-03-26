@@ -38,4 +38,3 @@ alias gst='git status'
 alias gsts='git stash'
 alias vim='mvim -v'
 
-fi
