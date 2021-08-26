@@ -37,4 +37,6 @@ alias grb='git rebase'
 alias gst='git status'
 alias gsts='git stash'
 alias vim='mvim -v'
+alias cdh='cd ~'
+alias kube='kubectl'
 
