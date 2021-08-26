@@ -39,4 +39,5 @@ alias gsts='git stash'
 alias vim='mvim -v'
 alias cdh='cd ~'
 alias kube='kubectl'
+alias gfix='vim `git diff --name-only | uniq`'
 
