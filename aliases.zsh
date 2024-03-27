@@ -40,4 +40,7 @@ alias vim='mvim -v'
 alias cdh='cd ~'
 alias kube='kubectl'
 alias gfix='vim `git diff --name-only | uniq`'
-
+alias python=/opt/homebrew/bin/python3
+alias knp='ps -ef | grep node | awk "{print \$2}" | xargs kill -9'
+function aprint() { awk "{print \$${1:-1}}"; }
+# alias python=~/.pyenv/shims/python
